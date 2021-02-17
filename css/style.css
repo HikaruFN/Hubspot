@@ -35,6 +35,10 @@ body{
 }
 p{
     color: #33475b;
+    font-weight: bold;
+}
+h2{
+    color: #33475b;
 }
 /*Header*/
 .blocco-grafico-verde{
@@ -95,4 +99,23 @@ header a{
     padding: 30px;
     display: inline-block;
     margin: 30px 0;
+}
+/*MAIN*/
+/*Presentazione*/
+.presentazione{
+    text-align: center;
+}
+.presentazione img{
+    width: 25%;
+    margin-top: 30px;
+}
+.presentazione h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    
+
+}
+.presentazione p{
+    padding: 15px 300px;
 }
