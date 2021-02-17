@@ -33,7 +33,9 @@ body{
     border-radius: 10px;
     padding: 10px;
 }
-
+p{
+    color: #33475b;
+}
 /*Header*/
 
 /*Nav Superiore*/
@@ -64,4 +66,25 @@ header a{
 /*Nav Inferiore*/
 .logo{
     padding-right: 600px;
+}
+/*Jumbotron*/
+.jumbotron{
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+}
+.jumbotron-text{
+    width: 50%;
+    padding-top: 100px;
+}
+.jumbotron-text h1{
+    font-size: 58px;
+    font-weight: bolder;
+    color: #33475b;
+    margin-bottom: 40px;
+}
+.jumbotron-text .bordo-arancione{
+    padding: 30px;
 }
