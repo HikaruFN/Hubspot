@@ -7,7 +7,55 @@
 img{
     width: 100%;
 }
+
 /*Common*/
 body{
     font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 0 10%;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.due-colonne{
+    width: 50%;
+    float: left;
+}
+.bg-grigio{
+    background-color: #f4f9fd;
+}
+.bordo-arancione{
+    color: white;
+    background-color: #fe775a;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Header*/
+header li{
+    display: inline-block;
+    margin-left: 10px;
+}
+header nav{
+    padding: 50px;
+}
+header a{
+    text-decoration: none;
+    color: #32495b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.after::after{
+    content: "";
+    border-right: 1px solid #32495b;
+    margin-left: 10px;
+}
+#login{
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 10px;
+    padding: 10px;
 }
