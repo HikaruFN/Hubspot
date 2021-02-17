@@ -35,6 +35,8 @@ body{
 }
 
 /*Header*/
+
+/*Nav Superiore*/
 header li{
     display: inline-block;
     margin-left: 10px;
@@ -48,7 +50,7 @@ header a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-.after::after{
+.after::after{ /*Sono dubbioso su questo*/
     content: "";
     border-right: 1px solid #32495b;
     margin-left: 10px;
@@ -58,4 +60,8 @@ header a{
     border: 1px solid #fe775a;
     border-radius: 10px;
     padding: 10px;
+}
+/*Nav Inferiore*/
+.logo{
+    padding-right: 600px;
 }
