@@ -17,6 +17,9 @@ body{
 .container{
     margin: 0 10%;
 }
+.clearfix{
+    padding: 40px 0;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -71,15 +74,15 @@ li{
 p{
     color: #33475b;
     font-weight: bold;
-    margin: 10px
 }
 h2{
     color: #33475b;
+    padding: 80px;
+    font-size: 40px;
 }
 h3{
     color: #33475b;
-    margin-top: 20px;
-    margin-bottom: 30px; 
+    margin: 30px 0; 
 }
 h4{
     color: white;
@@ -115,6 +118,10 @@ h5{
 .social{
     color: #96a5b3;
     margin: 10px 0;
+}
+.logo{
+    padding-right: 500px;
+    height: 50%;
 }
 /*Header*/
 .blocco-grafico-verde{
@@ -153,11 +160,6 @@ header .bordo-arancione{
 .search{
     color: #08a6bf;
 }
-/*Nav Inferiore*/
-.logo{
-    padding-right: 600px;
-    height: 50%;
-}
 /*Jumbotron*/
 .jumbotron{
     background-image: url(../img/jumbotron.png);
@@ -181,7 +183,7 @@ header .bordo-arancione{
 }
 /*MAIN*/
 main .bordo-arancione{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 /*Presentazione*/
 .presentazione{
@@ -190,13 +192,6 @@ main .bordo-arancione{
 .presentazione img{
     margin-top: 30px;
     height: 200px;
-}
-.presentazione h2{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: bolder;
-    
-
 }
 .presentazione p{
     padding: 15px 300px;
@@ -230,7 +225,6 @@ main .bordo-arancione{
 }
 .bg-verde h2{
     color: white;
-    padding: 80px;
 }
 .bg-verde p{
     color: white;
@@ -238,6 +232,10 @@ main .bordo-arancione{
 .community{
     padding-left: 200px;
     margin-top: 40px;
+    padding-bottom: 90px;
+}
+.community .clearfix{
+    padding: 0;
 }
 .community-img{
     width: 40%;
@@ -252,15 +250,14 @@ main .bordo-arancione{
 }
 /*Community Inferiore*/
 .col-sponsor-stretta{
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 120px;
 }
 .col-sponsor-larga{
-    width: 60%;
+    width: 70%;
     float: left;
-    padding: 120px;
-    
+    padding: 120px;    
 }
 #numero-grande{
     font-size: 60px;
@@ -272,10 +269,9 @@ main .bordo-arancione{
     vertical-align: middle;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-top:
 }
 #woman{
-    height: 250px;
+    height: 400px;
 } 
 
 /*FOOTER*/
@@ -293,11 +289,9 @@ main .bordo-arancione{
     background-color: #dde1e3;
     padding: 10px;
     border-radius: 10px;
+    margin-left: 0;
     text-decoration: none;
     display: inline-block;
-}
-.social i{
-    margin-left: 20px;
 }
 .footer .quattro-colonne{
     margin-left: 30px;
@@ -306,7 +300,6 @@ main .bordo-arancione{
     text-align: center;
     margin: 50px 0;
 }
-
 .footer hr{
     color: #dde1e3;
 }
