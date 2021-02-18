@@ -150,6 +150,9 @@ header .bordo-arancione{
 .nav-superiore ul:nth-child(2){
     padding-left: 250px;
 }
+.search{
+    color: #08a6bf;
+}
 /*Nav Inferiore*/
 .logo{
     padding-right: 600px;
