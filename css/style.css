@@ -52,7 +52,9 @@ body{
     background-color: #f4f9fd;
 }
 .bg-verde{
-    background-color: #00b1b0;
+    background: rgb(0,165,187);
+    background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
+    text-align: center;
 }
 .bg-blu{
     background-color: #32495b;
@@ -220,9 +222,6 @@ main .bordo-arancione{
     text-align: left;
 }
 /*Community*/
-.bg-verde{
-    text-align: center;
-}
 .bg-verde h2{
     color: white;
 }
