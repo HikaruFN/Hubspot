@@ -37,6 +37,10 @@ body{
     width: 20%;
     float: left;
 }
+.float-destra{
+    float: right;
+    width: 50%;
+}
 .servizio{
     background-color: white;
     text-align: center;
@@ -68,6 +72,7 @@ li{
 p{
     color: #33475b;
     font-weight: bold;
+    margin: 10px
 }
 h2{
     color: #33475b;
@@ -94,7 +99,7 @@ h3{
     border-top: 3px solid lightgray;
     margin-top: 10px;
 }
-.bold{
+.big-size{
     font-size: 50px;
 }
 .bord-destro{
@@ -137,6 +142,7 @@ header .bordo-arancione{
 /*Nav Inferiore*/
 .logo{
     padding-right: 600px;
+    height: 50%;
 }
 /*Jumbotron*/
 .jumbotron{
@@ -216,15 +222,44 @@ main .bordo-arancione{
     color: white;
 }
 .community{
-    margin-top: 20px;
+    padding-left: 200px;
+    margin-top: 40px;
 }
 .community-img{
     width: 40%;
-    height: 50px;
+    height: 25px;
     object-fit: contain;
+    margin-top: 10px;
 }
 .prima-riga::after{
     content: "";
-    width: 100%;
+    width: 81%;
     border-bottom: 1px solid lightgray;
 }
+/*Community Inferiore*/
+.col-sponsor-stretta{
+    width: 40%;
+    float: left;
+    padding: 120px;
+}
+.col-sponsor-larga{
+    width: 60%;
+    float: left;
+    padding: 120px;
+    
+}
+#numero-grande{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.sponsor img{
+    width: 20%;
+    height: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top:
+}
+#woman{
+    height: 250px;
+} 
