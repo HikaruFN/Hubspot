@@ -55,6 +55,9 @@ body{
 .bg-verde{
     background-color: #00b1b0;
 }
+.bg-blu{
+    background-color: #32495b;
+}
 .bordo-arancione{
     color: white;
     background-color: #fe775a;
@@ -82,6 +85,10 @@ h3{
     margin-top: 20px;
     margin-bottom: 30px; 
 }
+h4{
+    color: white;
+    margin: 20px 0;
+}
 .check{
     color: white;
     height: 10px;
@@ -104,6 +111,10 @@ h3{
 }
 .bord-destro{
     border-right: 1px solid lightgray;
+}
+.social{
+    color: #96a5b3;
+    margin: 10px 0;
 }
 /*Header*/
 .blocco-grafico-verde{
@@ -263,3 +274,38 @@ main .bordo-arancione{
 #woman{
     height: 250px;
 } 
+
+/*FOOTER*/
+.footer li{
+    color: #cbd6e2;
+    margin: 10px
+}
+#support{
+    color: #32495b;
+    background-color: #dde1e3;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.social i{
+    margin-left: 20px;
+}
+.footer .quattro-colonne{
+    margin-left: 30px;
+}
+.lingua{
+    text-align: center;
+    margin: 50px 0;
+}
+.lingua a{
+    color: #dde1e3;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer hr{
+    color: #dde1e3;
+}
+.col-footer-piccola{
+    width: 20%;
+}
