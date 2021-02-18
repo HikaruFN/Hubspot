@@ -22,17 +22,34 @@ body{
     display: table;
     clear: both;
 }
+.due-colonne{
+    width: 50%;
+    float: left;
+}
+.tre-colonne{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quattro-colonne{
+    width: 20%;
+    float: left;
+}
 .servizio{
+    background-color: white;
     text-align: center;
     padding: 40px 0;
     border: 1px solid lightgray;
-    border-radius: 10%;
+    border-radius: 10px;
+    padding: 30px;
 }
 .bg-grigio{
     background-color: #f4f9fd;
 }
-.bg-bianco{
-    background-color: white;
+.bg-verde{
+    background-color: #00b1b0;
 }
 .bordo-arancione{
     color: white;
@@ -70,6 +87,19 @@ h3{
     padding: 2px;
     margin-right: 10px;
 }
+.tre-colonne .after::after{
+    display: block;
+    content: "";
+    width: 90%;
+    border-top: 3px solid lightgray;
+    margin-top: 10px;
+}
+.bold{
+    font-size: 50px;
+}
+.bord-destro{
+    border-right: 1px solid lightgray;
+}
 /*Header*/
 .blocco-grafico-verde{
     background-color: #afebe4;
@@ -101,9 +131,8 @@ header .bordo-arancione{
     border-radius: 10px;
     padding: 10px;
 }
-.due-colonne{
-    width: 50%;
-    float: left;
+.nav-superiore ul:nth-child(2){
+    padding-left: 250px;
 }
 /*Nav Inferiore*/
 .logo{
@@ -162,4 +191,40 @@ main .bordo-arancione{
     width: 70%;
     float: left;
     text-align: left;
+}
+.col-crm-larga .after::after{
+    content: "";
+    display: inline-block;
+    width: 50%;
+    border-top: 3px solid lightgray;
+    vertical-align: middle;
+}
+/*Marketing Vendite Servizio Clienti*/
+.tre-colonne li{
+    display: block;
+    text-align: left;
+}
+/*Community*/
+.bg-verde{
+    text-align: center;
+}
+.bg-verde h2{
+    color: white;
+    padding: 80px;
+}
+.bg-verde p{
+    color: white;
+}
+.community{
+    margin-top: 20px;
+}
+.community-img{
+    width: 40%;
+    height: 50px;
+    object-fit: contain;
+}
+.prima-riga::after{
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid lightgray;
 }
