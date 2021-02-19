@@ -111,7 +111,7 @@ h5{
     border-top: 3px solid lightgray;
     margin-top: 10px;
 }
-.big-size{
+.numeri-data{
     font-size: 50px;
 }
 .bord-destro{
@@ -125,7 +125,9 @@ h5{
     padding-right: 500px;
     height: 50%;
 }
-/*Header*/
+
+
+/*HEADER*/
 .blocco-grafico-verde{
     background-color: #afebe4;
     border-top: 3px solid black;
@@ -145,12 +147,12 @@ header a{
 header .bordo-arancione{
     padding: 10px;
 }
-.after::after{ /*Sono dubbioso su questo*/
+.after::after{ 
     content: "";
     border-right: 1px solid #32495b;
     margin-left: 10px;
 }
-#login{
+.login{
     color: #fe775a;
     border: 1px solid #fe775a;
     border-radius: 10px;
@@ -162,11 +164,13 @@ header .bordo-arancione{
 .search{
     color: #08a6bf;
 }
+
 /*Jumbotron*/
 .jumbotron{
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0 4px;
     height: 810px;
     
 }
@@ -176,17 +180,19 @@ header .bordo-arancione{
 }
 .jumbotron-text h1{
     font-size: 58px;
-    font-weight: bolder;
     color: #33475b;
     margin-bottom: 40px;
 }
 .jumbotron-text .bordo-arancione{
     margin: 30px 0;
 }
+
+
 /*MAIN*/
 main .bordo-arancione{
     margin: 30px 0;
 }
+
 /*Presentazione*/
 .presentazione{
     text-align: center;
@@ -199,6 +205,7 @@ main .bordo-arancione{
     padding: 15px 300px;
     margin-bottom: 40px;
 }
+
 /*CRM*/
 .col-crm-stretta{
     width: 30%;
@@ -216,11 +223,13 @@ main .bordo-arancione{
     border-top: 3px solid lightgray;
     vertical-align: middle;
 }
+
 /*Marketing Vendite Servizio Clienti*/
 .tre-colonne li{
     display: block;
     text-align: left;
 }
+
 /*Community*/
 .bg-verde h2{
     color: white;
@@ -247,6 +256,7 @@ main .bordo-arancione{
     width: 81%;
     border-bottom: 1px solid lightgray;
 }
+
 /*Community Inferiore*/
 .col-sponsor-stretta{
     width: 30%;
@@ -272,6 +282,7 @@ main .bordo-arancione{
 #woman{
     height: 400px;
 } 
+
 
 /*FOOTER*/
 .footer a{
